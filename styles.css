@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+
+/* applying flex here to align all sections */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body >* {
+    flex: 1;
+}
+/* header section */
+.header {
+    flex:none;
+    height: 50px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-links {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.right-links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.right-links ul {
+    display: flex;
+    gap: 24px;
+}
+/* title section / hero space */
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-title {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+.hero-subtitle {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+/* information section */
+/* Testimonials */
+/* Call to Action */
+/* Footer */
+.footer {
+    flex: none;
+    height: 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
