@@ -74,6 +74,32 @@ html {
      
   }
   /* information section */
+.information-section {
+  padding: 3% 4% 6%;
+  text-align: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.info-header-text { 
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-bottom: 32px;
+}
+ 
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.container div {
+  /* font-family: 'Courier New', Courier, monospace; */
+  max-width: 200px;
+}
+ 
   
   /* Testimonials */
   /* Call to Action */
