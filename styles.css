@@ -119,4 +119,23 @@ img {
   justify-content: flex-end;
 }
   /* Call to Action */
+  .cta {
+    margin: 3% 15%;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cta-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .cta-text {
+    color: #E5E7EB;
+  }
+  .cta-btn {
+    border: 1px solid #fff;
+  }
   /* Footer */
