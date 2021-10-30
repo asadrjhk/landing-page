@@ -101,6 +101,22 @@ img {
 }
  
   
-  /* Testimonials */
+/* Testimonials */
+.testimonial {
+  padding: 5% 24%;
+  background-color: #E5E7EB;
+   
+}
+.quote {
+  text-align: left;
+  color: #1F2937;
+  font: italic 32px lighter;
+}
+.author {
+  color:#1F2937;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
   /* Call to Action */
   /* Footer */
