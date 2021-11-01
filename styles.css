@@ -6,6 +6,7 @@ html {
   margin: 0;
   padding: 0;
 } 
+ 
 ul {
   list-style: none;
 }
@@ -28,6 +29,13 @@ ul {
     margin-left: auto;
     color: #E5E7EB;
     font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+} 
+a:hover {
+  text-decoration: underline;
 }
  
 .right-links ul {
@@ -97,6 +105,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 52px;
+  flex-wrap: wrap;
 }
 .container div {
   /* font-family: 'Courier New', Courier, monospace; */
